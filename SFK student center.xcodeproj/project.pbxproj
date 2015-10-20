@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3DCD3C1BD6203400BE862E /* SFKTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DCD3B1BD6203400BE862E /* SFKTabBarVC.m */; settings = {ASSET_TAGS = (); }; };
+		1E3DCD481BD6293C00BE862E /* CourseScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DCD471BD6293C00BE862E /* CourseScheduleTVC.m */; settings = {ASSET_TAGS = (); }; };
+		1E3DEBC81BD629FE00BE862E /* UploadManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBC61BD629FE00BE862E /* UploadManageVC.m */; settings = {ASSET_TAGS = (); }; };
+		1E3DEBC91BD629FE00BE862E /* UploadManageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DEBC71BD629FE00BE862E /* UploadManageVC.xib */; settings = {ASSET_TAGS = (); }; };
+		1E3DEBCD1BD62A2C00BE862E /* HomepageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBCB1BD62A2C00BE862E /* HomepageVC.m */; settings = {ASSET_TAGS = (); }; };
+		1E3DEBCE1BD62A2C00BE862E /* HomepageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DEBCC1BD62A2C00BE862E /* HomepageVC.xib */; settings = {ASSET_TAGS = (); }; };
+		1E3DEBD11BD62B7C00BE862E /* SFKNavigationC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBD01BD62B7C00BE862E /* SFKNavigationC.m */; settings = {ASSET_TAGS = (); }; };
 		1ECDFCFB1BD5EFDE00862F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFCFA1BD5EFDE00862F10 /* main.m */; };
 		1ECDFCFE1BD5EFDE00862F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFCFD1BD5EFDE00862F10 /* AppDelegate.m */; };
 		1ECDFD011BD5EFDE00862F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFD001BD5EFDE00862F10 /* ViewController.m */; };
@@ -16,6 +23,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E3DCD3A1BD6203400BE862E /* SFKTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKTabBarVC.h; sourceTree = "<group>"; };
+		1E3DCD3B1BD6203400BE862E /* SFKTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKTabBarVC.m; sourceTree = "<group>"; };
+		1E3DCD461BD6293C00BE862E /* CourseScheduleTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScheduleTVC.h; sourceTree = "<group>"; };
+		1E3DCD471BD6293C00BE862E /* CourseScheduleTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseScheduleTVC.m; sourceTree = "<group>"; };
+		1E3DEBC51BD629FE00BE862E /* UploadManageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadManageVC.h; sourceTree = "<group>"; };
+		1E3DEBC61BD629FE00BE862E /* UploadManageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadManageVC.m; sourceTree = "<group>"; };
+		1E3DEBC71BD629FE00BE862E /* UploadManageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadManageVC.xib; sourceTree = "<group>"; };
+		1E3DEBCA1BD62A2C00BE862E /* HomepageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepageVC.h; sourceTree = "<group>"; };
+		1E3DEBCB1BD62A2C00BE862E /* HomepageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepageVC.m; sourceTree = "<group>"; };
+		1E3DEBCC1BD62A2C00BE862E /* HomepageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomepageVC.xib; sourceTree = "<group>"; };
+		1E3DEBCF1BD62B7C00BE862E /* SFKNavigationC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKNavigationC.h; sourceTree = "<group>"; };
+		1E3DEBD01BD62B7C00BE862E /* SFKNavigationC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKNavigationC.m; sourceTree = "<group>"; };
+		1E3DEBD81BD6344800BE862E /* SFKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFKPrefixHeader.pch; sourceTree = "<group>"; };
 		1ECDFCF61BD5EFDE00862F10 /* SFK student center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFK student center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECDFCFA1BD5EFDE00862F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ECDFCFC1BD5EFDE00862F10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +59,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E3DCD411BD6286D00BE862E /* CourseSchedule-课程进度 */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DCD421BD6286D00BE862E /* Controllers */,
+				1E3DCD431BD6286D00BE862E /* Models */,
+				1E3DCD441BD6286D00BE862E /* Tools */,
+				1E3DCD451BD6286D00BE862E /* Views */,
+			);
+			name = "CourseSchedule-课程进度";
+			path = "Classes/Controllers/CourseSchedule-课程进度";
+			sourceTree = "<group>";
+		};
+		1E3DCD421BD6286D00BE862E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DCD461BD6293C00BE862E /* CourseScheduleTVC.h */,
+				1E3DCD471BD6293C00BE862E /* CourseScheduleTVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1E3DCD431BD6286D00BE862E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1E3DCD441BD6286D00BE862E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1E3DCD451BD6286D00BE862E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1ECDFCED1BD5EFDE00862F10 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +120,10 @@
 		1ECDFCF81BD5EFDE00862F10 /* SFK student center */ = {
 			isa = PBXGroup;
 			children = (
-				1ECDFCFC1BD5EFDE00862F10 /* AppDelegate.h */,
-				1ECDFCFD1BD5EFDE00862F10 /* AppDelegate.m */,
-				1ECDFCFF1BD5EFDE00862F10 /* ViewController.h */,
-				1ECDFD001BD5EFDE00862F10 /* ViewController.m */,
-				1ECDFD021BD5EFDE00862F10 /* Main.storyboard */,
-				1ECDFD051BD5EFDE00862F10 /* Assets.xcassets */,
-				1ECDFD071BD5EFDE00862F10 /* LaunchScreen.storyboard */,
-				1ECDFD0A1BD5EFDE00862F10 /* Info.plist */,
+				1ECDFD101BD5F02E00862F10 /* Classes */,
+				1ECDFD151BD5F02E00862F10 /* Images */,
+				1ECDFD161BD5F02E00862F10 /* Lib */,
+				1ECDFD171BD5F02E00862F10 /* Others */,
 				1ECDFCF91BD5EFDE00862F10 /* Supporting Files */,
 			);
 			path = "SFK student center";
@@ -74,9 +132,637 @@
 		1ECDFCF91BD5EFDE00862F10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1E3DEBD81BD6344800BE862E /* SFKPrefixHeader.pch */,
+				1ECDFCFC1BD5EFDE00862F10 /* AppDelegate.h */,
+				1ECDFCFD1BD5EFDE00862F10 /* AppDelegate.m */,
+				1ECDFCFF1BD5EFDE00862F10 /* ViewController.h */,
+				1ECDFD001BD5EFDE00862F10 /* ViewController.m */,
+				1ECDFD021BD5EFDE00862F10 /* Main.storyboard */,
+				1ECDFD051BD5EFDE00862F10 /* Assets.xcassets */,
+				1ECDFD071BD5EFDE00862F10 /* LaunchScreen.storyboard */,
+				1ECDFD0A1BD5EFDE00862F10 /* Info.plist */,
 				1ECDFCFA1BD5EFDE00862F10 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ECDFD101BD5F02E00862F10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD181BD5F11D00862F10 /* Main */,
+				1ECDFD251BD5F1FB00862F10 /* Welcome-欢迎 */,
+				1ECDFD491BD6151900862F10 /* Login-登陆 */,
+				1ECDFD441BD6151900862F10 /* Homepage-首页 */,
+				1ECDFD5D1BD6151900862F10 /* PersonalCenter-个人中心 */,
+				1ECDFD4E1BD6151900862F10 /* MessageCenter-消息中心 */,
+				1E3DCD411BD6286D00BE862E /* CourseSchedule-课程进度 */,
+				1ECDFD6C1BD6151900862F10 /* UploadManage-上传管理 */,
+				1ECDFD3A1BD6151900862F10 /* Activities-活动公告 */,
+				1ECDFD531BD6151900862F10 /* MyClassroom-我的课堂 */,
+				1ECDFD581BD6151900862F10 /* MyCourse-我的课程 */,
+				1ECDFD621BD6151900862F10 /* SupervisionFeedback-监督反馈 */,
+				1ECDFD711BD6151900862F10 /* WritSchedule-文书进度 */,
+				1ECDFD3F1BD6151900862F10 /* Critique */,
+				1ECDFD671BD6151900862F10 /* TimeLine-时间轴 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1ECDFD151BD5F02E00862F10 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1ECDFD161BD5F02E00862F10 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		1ECDFD171BD5F02E00862F10 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		1ECDFD181BD5F11D00862F10 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD321BD614C100862F10 /* Controllers */,
+				1ECDFD331BD614C100862F10 /* Models */,
+				1ECDFD341BD614C100862F10 /* Tools */,
+				1ECDFD351BD614C100862F10 /* Views */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		1ECDFD251BD5F1FB00862F10 /* Welcome-欢迎 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD361BD614CF00862F10 /* Controllers */,
+				1ECDFD371BD614CF00862F10 /* Models */,
+				1ECDFD381BD614CF00862F10 /* Tools */,
+				1ECDFD391BD614CF00862F10 /* Views */,
+			);
+			name = "Welcome-欢迎";
+			sourceTree = "<group>";
+		};
+		1ECDFD321BD614C100862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DCD3A1BD6203400BE862E /* SFKTabBarVC.h */,
+				1E3DCD3B1BD6203400BE862E /* SFKTabBarVC.m */,
+				1E3DEBCF1BD62B7C00BE862E /* SFKNavigationC.h */,
+				1E3DEBD01BD62B7C00BE862E /* SFKNavigationC.m */,
+			);
+			name = Controllers;
+			path = Classes/Controllers/Main/Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD331BD614C100862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Classes/Controllers/Main/Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD341BD614C100862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			path = Classes/Controllers/Main/Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD351BD614C100862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = Classes/Controllers/Main/Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD361BD614CF00862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			path = Classes/Controllers/Main/Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD371BD614CF00862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Classes/Controllers/Main/Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD381BD614CF00862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			path = Classes/Controllers/Main/Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD391BD614CF00862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = Classes/Controllers/Main/Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD3A1BD6151900862F10 /* Activities-活动公告 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD3B1BD6151900862F10 /* Controllers */,
+				1ECDFD3C1BD6151900862F10 /* Models */,
+				1ECDFD3D1BD6151900862F10 /* Tools */,
+				1ECDFD3E1BD6151900862F10 /* Views */,
+			);
+			name = "Activities-活动公告";
+			path = "Classes/Controllers/Main/Views/Activities-活动公告";
+			sourceTree = "<group>";
+		};
+		1ECDFD3B1BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD3C1BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD3D1BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD3E1BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD3F1BD6151900862F10 /* Critique */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD401BD6151900862F10 /* Controllers */,
+				1ECDFD411BD6151900862F10 /* Models */,
+				1ECDFD421BD6151900862F10 /* Tools */,
+				1ECDFD431BD6151900862F10 /* Views */,
+			);
+			name = Critique;
+			path = Classes/Controllers/Main/Views/Critique;
+			sourceTree = "<group>";
+		};
+		1ECDFD401BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD411BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD421BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD431BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD441BD6151900862F10 /* Homepage-首页 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD451BD6151900862F10 /* Controllers */,
+				1ECDFD461BD6151900862F10 /* Models */,
+				1ECDFD471BD6151900862F10 /* Tools */,
+				1ECDFD481BD6151900862F10 /* Views */,
+			);
+			name = "Homepage-首页";
+			path = "Classes/Controllers/Main/Views/Homepage-首页";
+			sourceTree = "<group>";
+		};
+		1ECDFD451BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DEBCA1BD62A2C00BE862E /* HomepageVC.h */,
+				1E3DEBCB1BD62A2C00BE862E /* HomepageVC.m */,
+				1E3DEBCC1BD62A2C00BE862E /* HomepageVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD461BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD471BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD481BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD491BD6151900862F10 /* Login-登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD4A1BD6151900862F10 /* Controllers */,
+				1ECDFD4B1BD6151900862F10 /* Models */,
+				1ECDFD4C1BD6151900862F10 /* Tools */,
+				1ECDFD4D1BD6151900862F10 /* Views */,
+			);
+			name = "Login-登陆";
+			path = "Classes/Controllers/Main/Views/Login-登陆";
+			sourceTree = "<group>";
+		};
+		1ECDFD4A1BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD4B1BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD4C1BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD4D1BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD4E1BD6151900862F10 /* MessageCenter-消息中心 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD4F1BD6151900862F10 /* Controllers */,
+				1ECDFD501BD6151900862F10 /* Models */,
+				1ECDFD511BD6151900862F10 /* Tools */,
+				1ECDFD521BD6151900862F10 /* Views */,
+			);
+			name = "MessageCenter-消息中心";
+			path = "Classes/Controllers/Main/Views/MessageCenter-消息中心";
+			sourceTree = "<group>";
+		};
+		1ECDFD4F1BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD501BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD511BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD521BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD531BD6151900862F10 /* MyClassroom-我的课堂 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD541BD6151900862F10 /* Controllers */,
+				1ECDFD551BD6151900862F10 /* Models */,
+				1ECDFD561BD6151900862F10 /* Tools */,
+				1ECDFD571BD6151900862F10 /* Views */,
+			);
+			name = "MyClassroom-我的课堂";
+			path = "Classes/Controllers/Main/Views/MyClassroom-我的课堂";
+			sourceTree = "<group>";
+		};
+		1ECDFD541BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD551BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD561BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD571BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD581BD6151900862F10 /* MyCourse-我的课程 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD591BD6151900862F10 /* Controllers */,
+				1ECDFD5A1BD6151900862F10 /* Models */,
+				1ECDFD5B1BD6151900862F10 /* Tools */,
+				1ECDFD5C1BD6151900862F10 /* Views */,
+			);
+			name = "MyCourse-我的课程";
+			path = "Classes/Controllers/Main/Views/MyCourse-我的课程";
+			sourceTree = "<group>";
+		};
+		1ECDFD591BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD5A1BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD5B1BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD5C1BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD5D1BD6151900862F10 /* PersonalCenter-个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD5E1BD6151900862F10 /* Controllers */,
+				1ECDFD5F1BD6151900862F10 /* Models */,
+				1ECDFD601BD6151900862F10 /* Tools */,
+				1ECDFD611BD6151900862F10 /* Views */,
+			);
+			name = "PersonalCenter-个人中心";
+			path = "Classes/Controllers/Main/Views/PersonalCenter-个人中心";
+			sourceTree = "<group>";
+		};
+		1ECDFD5E1BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD5F1BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD601BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD611BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD621BD6151900862F10 /* SupervisionFeedback-监督反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD631BD6151900862F10 /* Controllers */,
+				1ECDFD641BD6151900862F10 /* Models */,
+				1ECDFD651BD6151900862F10 /* Tools */,
+				1ECDFD661BD6151900862F10 /* Views */,
+			);
+			name = "SupervisionFeedback-监督反馈";
+			path = "Classes/Controllers/Main/Views/SupervisionFeedback-监督反馈";
+			sourceTree = "<group>";
+		};
+		1ECDFD631BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD641BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD651BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD661BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD671BD6151900862F10 /* TimeLine-时间轴 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD681BD6151900862F10 /* Controllers */,
+				1ECDFD691BD6151900862F10 /* Models */,
+				1ECDFD6A1BD6151900862F10 /* Tools */,
+				1ECDFD6B1BD6151900862F10 /* Views */,
+			);
+			name = "TimeLine-时间轴";
+			path = "Classes/Controllers/Main/Views/TimeLine-时间轴";
+			sourceTree = "<group>";
+		};
+		1ECDFD681BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD691BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD6A1BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD6B1BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD6C1BD6151900862F10 /* UploadManage-上传管理 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD6D1BD6151900862F10 /* Controllers */,
+				1ECDFD6E1BD6151900862F10 /* Models */,
+				1ECDFD6F1BD6151900862F10 /* Tools */,
+				1ECDFD701BD6151900862F10 /* Views */,
+			);
+			name = "UploadManage-上传管理";
+			path = "Classes/Controllers/Main/Views/UploadManage-上传管理";
+			sourceTree = "<group>";
+		};
+		1ECDFD6D1BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DEBC51BD629FE00BE862E /* UploadManageVC.h */,
+				1E3DEBC61BD629FE00BE862E /* UploadManageVC.m */,
+				1E3DEBC71BD629FE00BE862E /* UploadManageVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD6E1BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD6F1BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD701BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECDFD711BD6151900862F10 /* WritSchedule-文书进度 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECDFD721BD6151900862F10 /* Controllers */,
+				1ECDFD731BD6151900862F10 /* Models */,
+				1ECDFD741BD6151900862F10 /* Tools */,
+				1ECDFD751BD6151900862F10 /* Views */,
+			);
+			name = "WritSchedule-文书进度";
+			path = "Classes/Controllers/Main/Views/WritSchedule-文书进度";
+			sourceTree = "<group>";
+		};
+		1ECDFD721BD6151900862F10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ECDFD731BD6151900862F10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECDFD741BD6151900862F10 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ECDFD751BD6151900862F10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +824,8 @@
 			files = (
 				1ECDFD091BD5EFDE00862F10 /* LaunchScreen.storyboard in Resources */,
 				1ECDFD061BD5EFDE00862F10 /* Assets.xcassets in Resources */,
+				1E3DEBC91BD629FE00BE862E /* UploadManageVC.xib in Resources */,
+				1E3DEBCE1BD62A2C00BE862E /* HomepageVC.xib in Resources */,
 				1ECDFD041BD5EFDE00862F10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +837,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3DEBC81BD629FE00BE862E /* UploadManageVC.m in Sources */,
 				1ECDFD011BD5EFDE00862F10 /* ViewController.m in Sources */,
+				1E3DEBD11BD62B7C00BE862E /* SFKNavigationC.m in Sources */,
+				1E3DCD3C1BD6203400BE862E /* SFKTabBarVC.m in Sources */,
 				1ECDFCFE1BD5EFDE00862F10 /* AppDelegate.m in Sources */,
+				1E3DEBCD1BD62A2C00BE862E /* HomepageVC.m in Sources */,
 				1ECDFCFB1BD5EFDE00862F10 /* main.m in Sources */,
+				1E3DCD481BD6293C00BE862E /* CourseScheduleTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +894,10 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -243,7 +938,9 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -261,7 +958,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/SFK student center/SFKPrefixHeader.pch";
 				INFOPLIST_FILE = "SFK student center/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Education.SFK-student-center";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +973,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/SFK student center/SFKPrefixHeader.pch";
 				INFOPLIST_FILE = "SFK student center/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Education.SFK-student-center";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +1003,7 @@
 				1ECDFD0F1BD5EFDE00862F10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

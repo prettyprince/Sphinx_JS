@@ -1,0 +1,32 @@
+//
+//  SFKPrefixHeader.pch
+//  SFK student center
+//
+//  Created by Jeemy on 15/10/20.
+//  Copyright © 2015年 SKF. All rights reserved.
+//
+
+#ifndef SFKPrefixHeader_pch
+#define SFKPrefixHeader_pch
+
+// RGB颜色
+#define JSColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//IOS7以上版本
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+// 随机色
+#define JSRandomColor JSColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#endif /* WYSHeader_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif
+
+#ifdef DEBUG // 处于开发阶段
+#define JSLog(...) NSLog(@"方法:%s|第%d行 \n|%@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])//__va__args__可变参数不需要％@
+//#define JSLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define JSLog(...)
+#endif
