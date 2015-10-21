@@ -14,6 +14,8 @@
 		1E3DEBCD1BD62A2C00BE862E /* HomepageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBCB1BD62A2C00BE862E /* HomepageVC.m */; settings = {ASSET_TAGS = (); }; };
 		1E3DEBCE1BD62A2C00BE862E /* HomepageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DEBCC1BD62A2C00BE862E /* HomepageVC.xib */; settings = {ASSET_TAGS = (); }; };
 		1E3DEBD11BD62B7C00BE862E /* SFKNavigationC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBD01BD62B7C00BE862E /* SFKNavigationC.m */; settings = {ASSET_TAGS = (); }; };
+		1E3DEBDD1BD6380600BE862E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBDA1BD6380600BE862E /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		1E3DEBDE1BD6380600BE862E /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBDC1BD6380600BE862E /* UIBarButtonItem+Extension.m */; settings = {ASSET_TAGS = (); }; };
 		1ECDFCFB1BD5EFDE00862F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFCFA1BD5EFDE00862F10 /* main.m */; };
 		1ECDFCFE1BD5EFDE00862F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFCFD1BD5EFDE00862F10 /* AppDelegate.m */; };
 		1ECDFD011BD5EFDE00862F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFD001BD5EFDE00862F10 /* ViewController.m */; };
@@ -36,6 +38,10 @@
 		1E3DEBCF1BD62B7C00BE862E /* SFKNavigationC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKNavigationC.h; sourceTree = "<group>"; };
 		1E3DEBD01BD62B7C00BE862E /* SFKNavigationC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKNavigationC.m; sourceTree = "<group>"; };
 		1E3DEBD81BD6344800BE862E /* SFKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFKPrefixHeader.pch; sourceTree = "<group>"; };
+		1E3DEBD91BD6380600BE862E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		1E3DEBDA1BD6380600BE862E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		1E3DEBDB1BD6380600BE862E /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		1E3DEBDC1BD6380600BE862E /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		1ECDFCF61BD5EFDE00862F10 /* SFK student center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFK student center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECDFCFA1BD5EFDE00862F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ECDFCFC1BD5EFDE00862F10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -234,6 +240,10 @@
 		1ECDFD341BD614C100862F10 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1E3DEBD91BD6380600BE862E /* UIView+Extension.h */,
+				1E3DEBDA1BD6380600BE862E /* UIView+Extension.m */,
+				1E3DEBDB1BD6380600BE862E /* UIBarButtonItem+Extension.h */,
+				1E3DEBDC1BD6380600BE862E /* UIBarButtonItem+Extension.m */,
 			);
 			name = Tools;
 			path = Classes/Controllers/Main/Tools;
@@ -837,9 +847,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3DEBDD1BD6380600BE862E /* UIView+Extension.m in Sources */,
 				1E3DEBC81BD629FE00BE862E /* UploadManageVC.m in Sources */,
 				1ECDFD011BD5EFDE00862F10 /* ViewController.m in Sources */,
 				1E3DEBD11BD62B7C00BE862E /* SFKNavigationC.m in Sources */,
+				1E3DEBDE1BD6380600BE862E /* UIBarButtonItem+Extension.m in Sources */,
 				1E3DCD3C1BD6203400BE862E /* SFKTabBarVC.m in Sources */,
 				1ECDFCFE1BD5EFDE00862F10 /* AppDelegate.m in Sources */,
 				1E3DEBCD1BD62A2C00BE862E /* HomepageVC.m in Sources */,

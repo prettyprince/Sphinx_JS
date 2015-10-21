@@ -16,7 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    /* 设置导航栏上面的内容 */
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(headIcon) image:@"" highImage:@""];
+    
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(homeMessage) image:@"" highImage:@""];
+    
+    NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
+    textAttrs[NSForegroundColorAttributeName] = JSColor(255, 255, 255);
+    NSMutableDictionary *selectTextAttrs = [NSMutableDictionary dictionary];
+    selectTextAttrs[NSForegroundColorAttributeName] = [UIColor redColor];
+    
+    //设置首页图片View
+  
+    
+    
+}
+
+-(void)headIcon{
+    JSLog(@"____________________您点击了头像");
+}
+-(void)homeMessage{
+    JSLog(@"_____________________您点击了消息");
 }
 
 - (void)didReceiveMemoryWarning {
