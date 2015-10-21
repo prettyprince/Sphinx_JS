@@ -1,9 +1,9 @@
 //
 //  UIBarButtonItem+Extension.h
-//  黑马微博2期
+//  
 //
-//  Created by apple on 14-10-7.
-//  Copyright (c) 2014年 heima. All rights reserved.
+//  Created by jeemy on 14-10-7.
+//  Copyright (c) 2014年 jeemy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

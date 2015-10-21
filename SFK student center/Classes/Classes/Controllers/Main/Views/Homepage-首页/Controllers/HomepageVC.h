@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomepageVC : UIViewController
+
+
+@interface HomepageVC : UIViewController<UIGestureRecognizerDelegate>
 
 @end

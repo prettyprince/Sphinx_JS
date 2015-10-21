@@ -7,20 +7,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomepageVC">
             <connections>
+                <outlet property="imageView" destination="kWa-6o-zcB" id="ZEY-yF-r7b"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kWa-6o-zcB">
-                    <rect key="frame" x="5" y="71" width="310" height="199"/>
+                    <rect key="frame" x="5" y="71" width="365" height="248.5"/>
                     <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGP-kM-WJh">
-                    <rect key="frame" x="25" y="304" width="70" height="70"/>
+                    <rect key="frame" x="50" y="351" width="70" height="70"/>
                     <color key="backgroundColor" red="0.88235300780000003" green="0.88235300780000003" blue="0.96470594409999999" alpha="1" colorSpace="deviceRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="70" id="pA2-52-mi7"/>
@@ -28,7 +29,7 @@
                     <state key="normal" title="我的课堂"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lh-NU-dd6" userLabel="我的课程">
-                    <rect key="frame" x="125" y="304" width="70" height="70"/>
+                    <rect key="frame" x="150" y="351" width="70" height="70"/>
                     <color key="backgroundColor" red="0.88235300780000003" green="0.88235300780000003" blue="0.96470594409999999" alpha="1" colorSpace="deviceRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="cp7-jg-AjJ"/>
@@ -41,17 +42,17 @@
                     <state key="normal" title="我的课程"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntV-yc-56M" userLabel="监督反馈">
-                    <rect key="frame" x="225" y="304" width="70" height="70"/>
+                    <rect key="frame" x="250" y="351" width="70" height="70"/>
                     <color key="backgroundColor" red="0.88235300780000003" green="0.88235300780000003" blue="0.96470594409999999" alpha="1" colorSpace="deviceRGB"/>
                     <state key="normal" title="监督反馈"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlS-qj-3Au">
-                    <rect key="frame" x="25" y="411" width="70" height="70"/>
+                    <rect key="frame" x="50" y="458" width="70" height="70"/>
                     <color key="backgroundColor" red="0.88235300780000003" green="0.88235300780000003" blue="0.96470594409999999" alpha="1" colorSpace="deviceRGB"/>
                     <state key="normal" title="文书申请"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXa-UU-fCD">
-                    <rect key="frame" x="125" y="411" width="70" height="70"/>
+                    <rect key="frame" x="150" y="458" width="70" height="70"/>
                     <color key="backgroundColor" red="0.88235300780000003" green="0.88235300780000003" blue="0.96470594409999999" alpha="1" colorSpace="deviceRGB"/>
                     <state key="normal" title="Critique"/>
                 </button>
@@ -64,7 +65,7 @@
                 <constraint firstItem="LlS-qj-3Au" firstAttribute="top" secondItem="dGP-kM-WJh" secondAttribute="bottom" constant="37" id="Gof-cq-DFr"/>
                 <constraint firstItem="kWa-6o-zcB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="71" id="JCZ-no-2mF"/>
                 <constraint firstItem="LlS-qj-3Au" firstAttribute="leading" secondItem="dGP-kM-WJh" secondAttribute="leading" id="KZN-NB-VCW"/>
-                <constraint firstItem="9lh-NU-dd6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KvE-wZ-qKW"/>
+                <constraint firstItem="9lh-NU-dd6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-2" id="KvE-wZ-qKW"/>
                 <constraint firstAttribute="trailing" secondItem="kWa-6o-zcB" secondAttribute="trailing" constant="5" id="OQA-wN-fH4"/>
                 <constraint firstItem="9lh-NU-dd6" firstAttribute="top" secondItem="dGP-kM-WJh" secondAttribute="top" id="Qy5-fW-hMw"/>
                 <constraint firstItem="JXa-UU-fCD" firstAttribute="bottom" secondItem="LlS-qj-3Au" secondAttribute="bottom" id="T1v-Ob-BzN"/>
@@ -73,15 +74,15 @@
                 <constraint firstItem="kWa-6o-zcB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="ask-VZ-fFM"/>
                 <constraint firstItem="LlS-qj-3Au" firstAttribute="height" secondItem="dGP-kM-WJh" secondAttribute="height" id="eQI-qk-mye"/>
                 <constraint firstItem="9lh-NU-dd6" firstAttribute="leading" secondItem="dGP-kM-WJh" secondAttribute="trailing" constant="30" id="iWB-Zd-R92"/>
-                <constraint firstItem="dGP-kM-WJh" firstAttribute="top" secondItem="kWa-6o-zcB" secondAttribute="bottom" constant="34" id="nWD-Dp-39Z"/>
+                <constraint firstItem="dGP-kM-WJh" firstAttribute="top" secondItem="kWa-6o-zcB" secondAttribute="bottom" constant="32" id="nWD-Dp-39Z"/>
                 <constraint firstItem="ntV-yc-56M" firstAttribute="leading" secondItem="9lh-NU-dd6" secondAttribute="trailing" constant="30" id="pK9-2r-F4m"/>
                 <constraint firstItem="ntV-yc-56M" firstAttribute="width" secondItem="9lh-NU-dd6" secondAttribute="width" id="pgy-RD-67X"/>
-                <constraint firstItem="9lh-NU-dd6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="55" id="qIa-5v-dsD"/>
+                <constraint firstItem="9lh-NU-dd6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="53" id="qIa-5v-dsD"/>
                 <constraint firstItem="LlS-qj-3Au" firstAttribute="width" secondItem="dGP-kM-WJh" secondAttribute="width" id="qdW-VG-93n"/>
                 <constraint firstItem="9lh-NU-dd6" firstAttribute="height" secondItem="dGP-kM-WJh" secondAttribute="height" id="ySi-6x-bOj"/>
                 <constraint firstItem="9lh-NU-dd6" firstAttribute="width" secondItem="dGP-kM-WJh" secondAttribute="width" id="zvH-Bb-L3Z"/>
             </constraints>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="163" y="205"/>
         </view>
     </objects>

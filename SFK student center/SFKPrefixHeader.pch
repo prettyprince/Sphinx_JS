@@ -8,6 +8,10 @@
 
 #ifndef SFKPrefixHeader_pch
 #define SFKPrefixHeader_pch
+//定义判断是iphone5 、iphone6等
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) || CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size)) : NO)
+#define iPhone6plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size) || CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size)) : NO)
 
 // RGB颜色
 #define JSColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
@@ -23,6 +27,7 @@
 #import <Foundation/Foundation.h>
 #import "UIView+Extension.h"
 #import "UIBarButtonItem+Extension.h"
+#import "IphoneSize.h"
 #endif
 
 #ifdef DEBUG // 处于开发阶段

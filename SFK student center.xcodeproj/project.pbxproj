@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E3DCD3C1BD6203400BE862E /* SFKTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DCD3B1BD6203400BE862E /* SFKTabBarVC.m */; settings = {ASSET_TAGS = (); }; };
-		1E3DCD481BD6293C00BE862E /* CourseScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DCD471BD6293C00BE862E /* CourseScheduleTVC.m */; settings = {ASSET_TAGS = (); }; };
-		1E3DEBC81BD629FE00BE862E /* UploadManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBC61BD629FE00BE862E /* UploadManageVC.m */; settings = {ASSET_TAGS = (); }; };
-		1E3DEBC91BD629FE00BE862E /* UploadManageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DEBC71BD629FE00BE862E /* UploadManageVC.xib */; settings = {ASSET_TAGS = (); }; };
-		1E3DEBCD1BD62A2C00BE862E /* HomepageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBCB1BD62A2C00BE862E /* HomepageVC.m */; settings = {ASSET_TAGS = (); }; };
-		1E3DEBCE1BD62A2C00BE862E /* HomepageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DEBCC1BD62A2C00BE862E /* HomepageVC.xib */; settings = {ASSET_TAGS = (); }; };
-		1E3DEBD11BD62B7C00BE862E /* SFKNavigationC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBD01BD62B7C00BE862E /* SFKNavigationC.m */; settings = {ASSET_TAGS = (); }; };
-		1E3DEBDD1BD6380600BE862E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBDA1BD6380600BE862E /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
-		1E3DEBDE1BD6380600BE862E /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBDC1BD6380600BE862E /* UIBarButtonItem+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		1E0A0E301BD777F6000B8AE3 /* ActivitiesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0A0E2E1BD777F6000B8AE3 /* ActivitiesTVC.m */; };
+		1E0A0E311BD777F6000B8AE3 /* ActivitiesTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0A0E2F1BD777F6000B8AE3 /* ActivitiesTVC.xib */; };
+		1E3DCD3C1BD6203400BE862E /* SFKTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DCD3B1BD6203400BE862E /* SFKTabBarVC.m */; };
+		1E3DCD481BD6293C00BE862E /* CourseScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DCD471BD6293C00BE862E /* CourseScheduleTVC.m */; };
+		1E3DEBC81BD629FE00BE862E /* UploadManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBC61BD629FE00BE862E /* UploadManageVC.m */; };
+		1E3DEBC91BD629FE00BE862E /* UploadManageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DEBC71BD629FE00BE862E /* UploadManageVC.xib */; };
+		1E3DEBCD1BD62A2C00BE862E /* HomepageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBCB1BD62A2C00BE862E /* HomepageVC.m */; };
+		1E3DEBCE1BD62A2C00BE862E /* HomepageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DEBCC1BD62A2C00BE862E /* HomepageVC.xib */; };
+		1E3DEBD11BD62B7C00BE862E /* SFKNavigationC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBD01BD62B7C00BE862E /* SFKNavigationC.m */; };
+		1E3DEBDD1BD6380600BE862E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBDA1BD6380600BE862E /* UIView+Extension.m */; };
+		1E3DEBDE1BD6380600BE862E /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DEBDC1BD6380600BE862E /* UIBarButtonItem+Extension.m */; };
+		1E698B6E1BD73B1900D6DEE0 /* img_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E698B6D1BD73B1900D6DEE0 /* img_01.png */; };
+		1E698B701BD73B2400D6DEE0 /* img_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E698B6F1BD73B2400D6DEE0 /* img_02.png */; };
+		1E698B721BD73B2A00D6DEE0 /* img_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E698B711BD73B2A00D6DEE0 /* img_03.png */; };
+		1E698B741BD73B2F00D6DEE0 /* img_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E698B731BD73B2F00D6DEE0 /* img_04.png */; };
+		1E698B761BD73B3500D6DEE0 /* img_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E698B751BD73B3500D6DEE0 /* img_05.png */; };
+		1E698B7C1BD7618200D6DEE0 /* IphoneSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E698B7B1BD7618200D6DEE0 /* IphoneSize.m */; };
 		1ECDFCFB1BD5EFDE00862F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFCFA1BD5EFDE00862F10 /* main.m */; };
 		1ECDFCFE1BD5EFDE00862F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFCFD1BD5EFDE00862F10 /* AppDelegate.m */; };
 		1ECDFD011BD5EFDE00862F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDFD001BD5EFDE00862F10 /* ViewController.m */; };
@@ -25,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0A0E2D1BD777F6000B8AE3 /* ActivitiesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivitiesTVC.h; sourceTree = "<group>"; };
+		1E0A0E2E1BD777F6000B8AE3 /* ActivitiesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivitiesTVC.m; sourceTree = "<group>"; };
+		1E0A0E2F1BD777F6000B8AE3 /* ActivitiesTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesTVC.xib; sourceTree = "<group>"; };
 		1E3DCD3A1BD6203400BE862E /* SFKTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKTabBarVC.h; sourceTree = "<group>"; };
 		1E3DCD3B1BD6203400BE862E /* SFKTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKTabBarVC.m; sourceTree = "<group>"; };
 		1E3DCD461BD6293C00BE862E /* CourseScheduleTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScheduleTVC.h; sourceTree = "<group>"; };
@@ -42,6 +53,13 @@
 		1E3DEBDA1BD6380600BE862E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		1E3DEBDB1BD6380600BE862E /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		1E3DEBDC1BD6380600BE862E /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		1E698B6D1BD73B1900D6DEE0 /* img_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_01.png; sourceTree = "<group>"; };
+		1E698B6F1BD73B2400D6DEE0 /* img_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_02.png; sourceTree = "<group>"; };
+		1E698B711BD73B2A00D6DEE0 /* img_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_03.png; sourceTree = "<group>"; };
+		1E698B731BD73B2F00D6DEE0 /* img_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_04.png; sourceTree = "<group>"; };
+		1E698B751BD73B3500D6DEE0 /* img_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_05.png; sourceTree = "<group>"; };
+		1E698B7A1BD7618200D6DEE0 /* IphoneSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneSize.h; sourceTree = "<group>"; };
+		1E698B7B1BD7618200D6DEE0 /* IphoneSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IphoneSize.m; sourceTree = "<group>"; };
 		1ECDFCF61BD5EFDE00862F10 /* SFK student center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFK student center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECDFCFA1BD5EFDE00862F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ECDFCFC1BD5EFDE00862F10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +123,18 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1E698B501BD73AA300D6DEE0 /* testImg */ = {
+			isa = PBXGroup;
+			children = (
+				1E698B6D1BD73B1900D6DEE0 /* img_01.png */,
+				1E698B6F1BD73B2400D6DEE0 /* img_02.png */,
+				1E698B711BD73B2A00D6DEE0 /* img_03.png */,
+				1E698B751BD73B3500D6DEE0 /* img_05.png */,
+				1E698B731BD73B2F00D6DEE0 /* img_04.png */,
+			);
+			name = testImg;
 			sourceTree = "<group>";
 		};
 		1ECDFCED1BD5EFDE00862F10 = {
@@ -177,6 +207,7 @@
 		1ECDFD151BD5F02E00862F10 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1E698B501BD73AA300D6DEE0 /* testImg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -244,6 +275,8 @@
 				1E3DEBDA1BD6380600BE862E /* UIView+Extension.m */,
 				1E3DEBDB1BD6380600BE862E /* UIBarButtonItem+Extension.h */,
 				1E3DEBDC1BD6380600BE862E /* UIBarButtonItem+Extension.m */,
+				1E698B7A1BD7618200D6DEE0 /* IphoneSize.h */,
+				1E698B7B1BD7618200D6DEE0 /* IphoneSize.m */,
 			);
 			name = Tools;
 			path = Classes/Controllers/Main/Tools;
@@ -304,6 +337,9 @@
 		1ECDFD3B1BD6151900862F10 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1E0A0E2D1BD777F6000B8AE3 /* ActivitiesTVC.h */,
+				1E0A0E2E1BD777F6000B8AE3 /* ActivitiesTVC.m */,
+				1E0A0E2F1BD777F6000B8AE3 /* ActivitiesTVC.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -834,8 +870,14 @@
 			files = (
 				1ECDFD091BD5EFDE00862F10 /* LaunchScreen.storyboard in Resources */,
 				1ECDFD061BD5EFDE00862F10 /* Assets.xcassets in Resources */,
+				1E698B701BD73B2400D6DEE0 /* img_02.png in Resources */,
 				1E3DEBC91BD629FE00BE862E /* UploadManageVC.xib in Resources */,
+				1E698B721BD73B2A00D6DEE0 /* img_03.png in Resources */,
 				1E3DEBCE1BD62A2C00BE862E /* HomepageVC.xib in Resources */,
+				1E698B761BD73B3500D6DEE0 /* img_05.png in Resources */,
+				1E0A0E311BD777F6000B8AE3 /* ActivitiesTVC.xib in Resources */,
+				1E698B6E1BD73B1900D6DEE0 /* img_01.png in Resources */,
+				1E698B741BD73B2F00D6DEE0 /* img_04.png in Resources */,
 				1ECDFD041BD5EFDE00862F10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -849,7 +891,9 @@
 			files = (
 				1E3DEBDD1BD6380600BE862E /* UIView+Extension.m in Sources */,
 				1E3DEBC81BD629FE00BE862E /* UploadManageVC.m in Sources */,
+				1E698B7C1BD7618200D6DEE0 /* IphoneSize.m in Sources */,
 				1ECDFD011BD5EFDE00862F10 /* ViewController.m in Sources */,
+				1E0A0E301BD777F6000B8AE3 /* ActivitiesTVC.m in Sources */,
 				1E3DEBD11BD62B7C00BE862E /* SFKNavigationC.m in Sources */,
 				1E3DEBDE1BD6380600BE862E /* UIBarButtonItem+Extension.m in Sources */,
 				1E3DCD3C1BD6203400BE862E /* SFKTabBarVC.m in Sources */,
